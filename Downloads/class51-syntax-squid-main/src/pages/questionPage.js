@@ -91,12 +91,12 @@ export const initQuestionPage = () => {
   // Add Hint Button Listener
   addHintButtonListener();
 
+  // Start timer one times
   if (!timerStarted) {
     startTimer();
     timerStarted = true;
   }
   
-  // Update timer display with current elapsed time
   updateTimerDisplay();
 };
 
